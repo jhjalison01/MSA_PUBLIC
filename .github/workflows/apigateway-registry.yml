@@ -7,7 +7,7 @@ on:
       - main-gateway
     paths:
       - "apigateway/**"
-      - "./github/workflows/apigateway-registry.yml"
+      - ".github/workflows/apigateway-registry.yml"
 
 concurrency:
   group: apigateway-registry
